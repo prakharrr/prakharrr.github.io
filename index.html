@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/templatemo-style.css" />
-    <title>Mini Profile - Free Bootstrap CSS Template</title>
+    <title>Welcome to the Matrix</title>
     
 <!--
 Mini Profile Template
@@ -25,8 +25,8 @@ https://templatemo.com/tm-530-mini-profile
             <!-- Black transparent bg -->
             <div class="ml-auto mr-0 tm-bg-black-transparent text-white tm-brand-container-inner">
               <div class="tm-brand-container text-center">
-                <h1 class="tm-brand-name">Mini Profile</h1>
-                <p class="tm-brand-description mb-0">simple parallax template</p>
+                <h1 class="tm-brand-name">Prakhar Rawat</h1>
+                <p class="tm-brand-description mb-0">Software Engineer | Graduating May 2020  | DevOps Enthusiast</p>
               </div>
             </div>
           </div>
@@ -40,21 +40,20 @@ https://templatemo.com/tm-530-mini-profile
             <!-- White transparent bg -->
             <div class="col-md-7 tm-welcome-left-col">
               <div class="tm-welcome-left">
-                <h2 class="tm-welcome-title">Welcome to Mini Profile Page</h2>
+                <h2 class="tm-welcome-title">Welcome to my Portfolio</h2>
                 <p class="pb-0">
-                  This is Bootstrap v4.3.1 parallax layout for you. Credit goes to <a rel="nofollow" href="https://www.pexels.com">Pexels</a> for 2 background images. In
-                  odio sapien, commodo id ullamcorper ac, dignissim at sapien.
-                  Nullam leo massa, vaius ac massa et, tincidunt imperdiet
-                turpis. </p>
+                  I'm a software engineer in training. Passionate about cloud side of things. I've worked as DevOps Engineer Intern at <a href="https://www.saucelabs.com/">Sauce Labs</a> . I was part of the internal tools team helping migrate from monolith to micro-services based architecture.
+                </p>
               </div>
             </div>
             <!-- Brown bg -->
             <div class="col-md-5">
               <div class="tm-welcome-right">
-                <i class="fas fa-4x fa-address-card p-3 tm-welcome-icon"></i>
-                <p class="mb-0">
-                  Please spread a word about templatemo website. Anyone can download free Bootstrap CSS templates.
+                <a href="img/Resume_v14.pdf"><i class="fas fa-4x fa-address-card p-3 tm-welcome-icon" style="color: white"></i>
+                <p class="mb-0" style="color:white;">
+                  Please click on the image above to view my resume
                 </p>
+              </a>
               </div>
             </div>
           </div>
@@ -62,6 +61,14 @@ https://templatemo.com/tm-530-mini-profile
       </div>
     </section>
     <!-- End Welcome section -->
+    
+    <!-- Professional Experience starts -->
+
+    <p align="center" style="font-family: monospace; text-rendering: all; font-size: 200%; animation-iteration-count: infinite;">
+      <br>
+      <br>
+      Professional Experience
+    </p>
 
     <!-- Portfolio section -->
     <section id="tmPortfolio">
@@ -69,73 +76,82 @@ https://templatemo.com/tm-530-mini-profile
         <div class="row">
           <div class="col-12">
             <div class="tm-portfolio-item">
-              <div class="tm-portfolio-name text-white tm-bg-green">
-                Project Manager
+              <div class="tm-portfolio-name text-white tm-bg-dark-gray">
+                DevOps Engineer Intern
               </div>
               <div class="tm-portfolio-description">
-                <h3 class="tm-text-green">
-                  New Company
-                  <span class="tm-title-small">(2019 January to Present)</span>
+                <h3 style="color: rgb(126, 154, 207);" class="tm-text-orange">
+                  Sauce Labs
+                  <span class="tm-title-small">(August 2018 to May 2019)</span>
                 </h3>
-                <p class="mb-0">
-                  Nullam a tellus ultricies, ornare purus vel, porttitor massa.
-                  Aliquam facilisis purus ac eros sollicidudin, in mollis neque
-                  facilisis. Duis malesuada, mi non elementum malesuada.
-                </p>
-              </div>
-            </div>
-
-            <div class="tm-portfolio-item">
-              <div class="tm-portfolio-name text-white tm-bg-orange">
-                Senior UX Designer
-              </div>
-              <div class="tm-portfolio-description">
-                <h3 class="tm-text-orange">
-                  Studio One
-                  <span class="tm-title-small">(2017 April to 2018 Dec)</span>
-                </h3>
-                <p class="mb-0">
-                  Phasellus ac nulla egestas, malesuada dolor quis, scelerisque
-                  arcu. Morbi aliquam, nunc vel blandit mattis, sapien nisl
-                  convallis sem, quis hendrerit nisl tellus in lectus. Proin at
-                  nibh bibendum, tincidunt mauris sit amet, porta risus. Integer
-                  id malesuada ligula.
-                </p>
-              </div>
-            </div>
-
-            <div class="tm-portfolio-item">
-              <div class="tm-portfolio-name text-white tm-bg-blue">
-                Graphic Designer
-              </div>
-              <div class="tm-portfolio-description">
-                <h3 class="tm-text-blue">
-                  Digital Com
-                  <span class="tm-title-small">(2015 Jan to 2016 Dec)</span>
-                </h3>
-                <p class="mb-0">
-                  Etiam porta est nisl, consectetur dapibus ante faucibus id.
-                  Nunc ullamcorper a quam eget tincidunt. Proin vehicula mauris
-                  ipsum, euismod dignissim dolor convallis ac.
+                <p style="font-size: 76%"; class="mb-0">
+                  ● Worked on the headless browser implementation which help companies shift left and catch bugs earlier in the pipeline<br>
+                  ● Decoupled services from a monolithic architecture and automated their deployment process<br>
+                  ● Worked on wrapper methods for deploying/reaping clusters in GKE using terraform<br>
+                  ● Maintainer of the local development parent helm chart and designed its ingress controller in nginx to respective services<br>
+                  ● Configured chef node pools in GCE preemptible VM instances to withstand fault tolerance in public cloud<br>
+                  ● Switched to nginx from traefik as the default load balancer to proxy the assets to an S3 bucket<br>
+                  ● Implemented prometheus monitoring and alerting post deployment<br>
+                  ● Implemented POC on switching from helm to helmfile to use concurrent kubernetes deployments<br>
                 </p>
               </div>
             </div>
 
             <div class="tm-portfolio-item">
               <div class="tm-portfolio-name text-white tm-bg-dark-gray">
-                Design School
+                Open Source Developer Intern
+              </div>
+              <div class="tm-portfolio-description">
+                <h3 style="color: rgb(126, 154, 207);" class="tm-text-orange">
+                  Sauce Labs
+                  <span class="tm-title-small">(2018 June to 2018 August)</span>
+                </h3>
+                <p style="font-size: 85%"; class="mb-0">
+                  <i>A test automation framework built in Ruby using Watir Api which automates user interactions on mobile devices</i><br>
+                  ● Created an automation framework for mobile applications using open source frameworks Selenium, Appium, and Watir<br>
+                  ● Developed a wrapper for Watir API to extend the support for iOS and Android devices<br>
+                  ● Pushed changes to selenium and appium which helped reduce obscure issues<br>
+                </p>
+              </div>
+            </div>
+            <!-- Professional Experience starts -->
+           <p align="center" style="font-family: monospace; text-rendering: all; font-size: 200%; animation-iteration-count: infinite;">
+                <br>
+                <br>
+                Personal Projects
+            </p>            
+
+            <div class="tm-portfolio-item">
+              <div class="tm-portfolio-name text-white tm-bg-dark-gray">
+                Kubernetes Helm Application
+              </div>
+              <div class="tm-portfolio-description">
+                <h3 class="tm-text-blue">
+                  <a href="https://github.com/prakharrr/helm_k8s">View project on Github </a>
+                </h3>
+                <p style="font-size: 80%"; class="mb-0">
+                  <i>A Python-flask REST API based application which uses native Ingress as load balancer service deployed using helm</i><br>
+                  ● Used docker’s local k8s cluster and implemented the service as ClusterIP<br>
+                  ● Developed a health check on the service replicas<br>
+                  ● Implemented Helm charts with replica sets with readiness and liveness probes<br>
+                  ● Implemented auto pushing the binary to chartmuseum and using dev version of the helm chart<br>
+                </p>
+              </div>
+            </div>
+
+            <div class="tm-portfolio-item">
+              <div class="tm-portfolio-name text-white tm-bg-dark-gray">
+                Project Vagrant 
               </div>
               <div class="tm-portfolio-description">
                 <h3 class="tm-text-dark-gray">
-                  Art Design College
-                  <span class="tm-title-small">
-                    (2012 May to 2014 Dec)
-                  </span>
+                  <a href="https://github.com/prakharrr/flask-up">View project on Github </a>
                 </h3>
-                <p class="mb-0">
-                  Etiam porta est nisl, consectetur dapibus ante faucibus id.
-                  Nunc ullamcorper a quam eget tincidunt. Proin vehicula mauris
-                  ipsum, euismod dignissim dolor convallis ac.
+                <p style="font-size: 80%"; class="mb-0">
+                  <i>A sample python flask application deployed using wsgi on a VM using Vagrant with environment setup by Ansible provisioning </i><br>
+                  ● Defined multiple roles for ansible to run the sample application(Python, gunicorn, nginx)<br>
+                  ● Used nginx conf template to populate the roles and tasks<br>
+                  ● Used Gunicorn for gateway interface server <br>
                 </p>
               </div>
             </div>
@@ -151,24 +167,26 @@ https://templatemo.com/tm-530-mini-profile
         <div class="row">
           <div class="col-12">
             <div class="tm-contact-items-container">
-              <div class="tm-contact-item">
-                <i class="fas fa-5x fa-briefcase tm-contact-item-icon"></i>
-                <p class="mb-0">
-                  Quisque venenatis viverra ultrices. Lorem ipsum dolor sit
-                  amet. Nullam sit amet tempor nisl.
+              <div class="tm-contact-item" style="text-align: center; height: 50%">
+                <a href="https://linkedin.com/in/prakharrr"><button style="font-size: 22px;color: rgb(40,103,178); border: none;"><i class="fab fa-5x fa-linkedin"></i></button></a>
+                <p class="mb-0" style="text-align: center;">
+                  <br>
+                  Connect with me on Linkedin
                 </p>
               </div>
-              <div class="tm-contact-item">
-                <i class="fas fa-5x fa-building tm-contact-item-icon"></i>
+              <div class="tm-contact-item" style="text-align: center;">
+                <a href="https://github.com/prakharrr"><button style="font-size: 22px; border: none;"><i class="fab fa-5x fa-github-square"></i></button></a>
                 <p class="mb-0">
-                  You can absolutely feel free to use Mini Profile for your web page or any usage for your website.
+                  <br>
+                  Feel free to checkout my projects on github
                 </p>
               </div>
 
-              <div class="tm-contact-item">
-                <i class="fas fa-5x fa-balance-scale tm-contact-item-icon"></i>
+              <div class="tm-contact-item" style="text-align: center;">
+                <a href="mailto:prakharsens@gmail.com?Subject=Hello"><button style="font-size: 22px;color: rgb(212, 70, 56); border: none;"><i class="fas fa-5x fa-paper-plane"></i></button></a>
                 <p class="mb-0">
-                  You are NOT allowed to re-distribute this template in any download website. Else, it is illegal action.
+                  <br>
+                  Shoot me an email
                 </p>
               </div>
             </div>
@@ -228,7 +246,7 @@ https://templatemo.com/tm-530-mini-profile
         <div class="row">
           <footer class="col-12">
             <p class="text-center tm-copyright-text">
-            Copyright 2020 Mini Profile Page 
+            Copyright 2020 Profile 
             
             - Design: Template Mo</p>
           </footer>
